@@ -39,8 +39,25 @@ class CounterTestCase {
 		// Getting the even occurrences
 		int amount = counter.contarPares();
 		// I check the amount is the expected one
+		assertEquals(amount, 1);
+		}
+	
+	@Test
+	public void testunEvenNumbers() {
+		// Getting the even occurrences
+		int amount = counter.contarImpares();
+		// I check the amount is the expected one
 		assertEquals(amount, 9);
 		}
-	}
+	
+	@Test
+	public void testMultipleNumbers() {
+		// Getting the even occurrences
+		int amount = counter.cantMultiplosDe(3);
+		// I check the amount is the expected one
+		assertEquals(amount, 2);
+		}
 
 }
+
+
