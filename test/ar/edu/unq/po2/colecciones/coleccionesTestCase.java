@@ -21,6 +21,7 @@ class coleccionesTestCase {
 	Employee employee3;	
 	
 	
+	
 	/**
 	 * Crea un escenario de test b�sico, el cual consiste en una colecci�n
 	 * con tres empleados que mantienen el orden en que fueron agregados.
