@@ -8,7 +8,7 @@ public class Counter {
 	
 	private List<Integer> numeros = new ArrayList<Integer>();
 	
-	
+
 	public List<Integer> getNumeros() {
 		return numeros;
 	}
