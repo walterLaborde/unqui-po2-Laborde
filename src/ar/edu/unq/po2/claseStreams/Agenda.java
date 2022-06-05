@@ -45,7 +45,7 @@ public class Agenda {
 
 	public void setPersonas(List<Persona> personas) {
 		this.personas = personas;
-		
+	
 	}
 	
 }
